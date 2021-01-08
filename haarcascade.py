@@ -20,4 +20,4 @@ for (x,y,w,h) in faces:
 
 cv2.imshow("original image", img)
 cv2.waitKey(0)
-cv2.destroyWindow()
+cv2.destroyAllWindows()
